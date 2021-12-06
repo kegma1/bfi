@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Brainfuck tolker</title>
+</head>
+<body>
+    <div class="flexContainer">
+        <textarea name="kode" id="Input" cols="30" rows="10"></textarea>
+        <div class="buttons">
+            <button class="button" id="RunProg" onclick="getProgram()">Run</button>
+            <button class="button" id="StopRunning" onclick="stop = true">Stop</button>
+        </div>
+        <p id="program"></p>
+        <ul id="memory"></ul>
+        <p id="Output"></p>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
